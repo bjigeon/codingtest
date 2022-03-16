@@ -1,29 +1,13 @@
-# n = int(input())
-# for i in range(n):
+import sys
+for _ in range(int(sys.stdin.readline())):
+    a,b = map(int,sys.stdin.readline().split())
+    print(str((a%10)**b)[-1])
+
+
+
+# for i in range(int(input())):
 #     a, b= list(map(int,input().split()))
-#     print((a**b)%10)
+#     print((a%10**b)%10)
 
-# num = []
-# n = int(input())
-# for i in range(n):
-#     a, b= list(map(int,input().split()))
-#     if(a >= 10000 and  a < 100000):
-#         num[i] = a % 10000
-#     else:
-#         num[i] = (a%10)
-#     num[i] = int((num[i]**b)%10)
-# for i in range(n):
-#     print(num[i])
-
-
-# a, b= list(map(int,input().split()))
-# if(a >= 100000 and  a < 1000000):
-#     num = a % 100000
-# else:
-#     num = (a%10)
-# num = int((num**b)%10)
-
-# print(num)
-
-
-a, b= list(map(int,input().split()))
+# for i in range(30):
+#     print(6**i)
