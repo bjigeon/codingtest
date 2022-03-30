@@ -10,6 +10,7 @@
 # cnt = 1
 # global sum
 # sum = 0
+
 # def count():
 #     global sum
 #     num.remove(num[0])
@@ -19,6 +20,7 @@
 #         num.append(int(list(str(num[0] + num[1]))[1]))
 #     else:
 #         num.append(num[0] + num[1])
+
 # count()
 # while True:
 #     count()
@@ -28,3 +30,29 @@
 #         break
 
 from collections import deque
+global sum
+cnt = 1
+start = int(input())
+num = deque(str(start))
+print(num)
+
+if(start == 0):
+    print(1)
+    exit()
+elif( start <= 10):
+    num.appendleft(str(0))
+print(num)
+
+num.append(int(num[0])+int(num[1]))
+
+def count():
+    num.popleft()
+    num.append(int(num[0])+int(num[1]))
+    
+
+count()
+while True:
+    cnt+=1
+    if(sum==start):
+        print(cnt)
+        break
