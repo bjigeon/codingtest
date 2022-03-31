@@ -42,13 +42,20 @@ if(start == 0):
 elif( start <= 10):
     num.appendleft(str(0))
 print(num)
+print('num[0] : ',num[0])
 
 num.append(int(num[0])+int(num[1]))
 
 def count():
     num.popleft()
-    num.append(int(num[0])+int(num[1]))
-    
+    int(num[0])
+    int(num[1])
+    num.append(num[0]+num[1])
+    if(num[0] + num[1] > 10):
+        num.append(int(list(num[0] + num[1])[1]))
+    else:
+        num.append(num[0] + num[1])
+
 
 count()
 while True:
