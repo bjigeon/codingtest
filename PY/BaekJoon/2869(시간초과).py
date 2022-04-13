@@ -35,9 +35,13 @@
 # 2 1 5
 
 # 5-2 1-2
-# 3에 1로
+# 3에 -1로
 
 
-import sys
 import math
+import sys
 a,b,v = map(int,sys.stdin.readline().split())
+if a-b == 1:
+    print(v-b)
+else:
+    print(math.ceil(v/(a-b)))
