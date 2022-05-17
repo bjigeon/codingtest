@@ -26,7 +26,7 @@ let c = 16;
 
 // console.log(Math.sqrt(52*52 * (9/16)));
 
-// width*width = 33.28 * 
+// width*width = 33.28 *
 // 33.28 , 18.72
 // let Theight = Math.sqrt(33.28 * 18.72);
 // console.log(Theight);
@@ -34,3 +34,5 @@ let c = 16;
 // let width= Math.sqrt(52 * 33.28);
 
 // console.log(width);
+
+console.log(123);
