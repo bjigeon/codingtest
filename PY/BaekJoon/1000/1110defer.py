@@ -29,6 +29,8 @@
 #         print(cnt)
 #         break
 
+
+
 from collections import deque
 global sum
 cnt = 1
